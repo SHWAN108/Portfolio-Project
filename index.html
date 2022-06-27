@@ -18,6 +18,7 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
@@ -46,30 +47,18 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link mx-2" aria-current="page" href="#">About</a>
+              <a class="nav-link mx-2" aria-current="page" href="#About"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Skills</a>
+              <a class="nav-link mx-2" href="#Skills">Skills</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link mx-2 dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Project
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Blog</a></li>
-                <li><a class="dropdown-item" href="#">About Us</a></li>
-                <li><a class="dropdown-item" href="#">Contact us</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#Project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#Contact-me">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -79,7 +68,7 @@
     <!--end of navigation-->
 
     <!--Start About section-->
-    <section>
+    <section id="About">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -124,7 +113,7 @@
     <!--End of About section-->
 
     <!--Start of Skills Section-->
-    <section>
+    <section id="Skills">
       <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 fw-bold display-5 text-center">Skills</h2>
         <div
@@ -182,7 +171,7 @@
     </section>
     <!--End of Skills Section-->
     <!--Start of Project Section-->
-    <section>
+    <section id="Project">
       <h2 class="fw-bold display-5 text-center">Projects</h2>
       <!-- Carousel -->
       <div id="demo" class="carousel slide mt-5" data-bs-ride="carousel">
@@ -254,7 +243,7 @@
     </section>
     <!--end of Project Section-->
     <!--The start of Contact Me Section-->
-    <section class="mt-5">
+    <section class="mt-5" id="Contact-me">
       <h2 class="fw-bold display-5 text-center">Contact Me</h2>
       <!-- Wrapper container -->
       <div class="container py-4">
